@@ -21,7 +21,7 @@ public class Coche {
 	}
 	
 	public void circular(int distancia) {
-		System.out.println("Un coche circula "+km+" km.");
+		System.out.println("Un coche circula "+distancia+" km.");
 		km=km+distancia;
 	}
 

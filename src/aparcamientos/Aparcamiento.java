@@ -5,7 +5,7 @@ public class Aparcamiento {
 	public static final int PLAZAS_CAPACIDAD=5;
 
 	public Ticket registrar(Coche unCoche) {
-		System.out.println("Se registra un coche: "+unCoche.getMatricula()+" "+c.getKm()+" km.");
+		System.out.println("Se registra un coche: "+unCoche.getMatricula()+" "+unCoche.getKm()+" km.");
 		return emitirTicket();
 	}
 	
